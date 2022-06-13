@@ -39,6 +39,7 @@ main {
 
 .edu_list {
   margin: 20px;
+  list-style: none;
 }
 
 .other_links,
