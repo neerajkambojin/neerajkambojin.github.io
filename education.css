@@ -24,7 +24,7 @@ html {
 a,
 a:visited {
   text-decoration: none;
-  color: white;
+  color: inherit;
 }
 
 main {
@@ -33,13 +33,16 @@ main {
   text-align: center;
 }
 
-footer {
-  display: inline-block;
-  background-color: black;
-  color: white;
-  text-align: center;
-  margin: 20px 44vw;
-  padding: 4px;
-  width: 160px;
-  border-radius: 6px;
+#education {
+  margin: 20px;
+}
+
+.edu_list {
+  margin: 20px;
+}
+
+.other_links,
+.other_links:visited {
+  color: blue;
+  text-decoration: none;
 }
